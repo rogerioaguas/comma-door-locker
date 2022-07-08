@@ -12,7 +12,7 @@ import { register } from './registerServiceWorker';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter  basename={process.env.PUBLIC_URL}>
             <Header/>
             <Routes>
                 <Route path="*" element={<Home/>}/>
