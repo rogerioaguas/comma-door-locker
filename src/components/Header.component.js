@@ -7,7 +7,7 @@ export function Header() {
     return (
         <Navbar bg="light" expand="lg">
             <Container>
-                <LinkContainer to='/'>
+                <LinkContainer to='/comma-door-locker'>
                     <Navbar.Brand>Door Locker</Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>

@@ -4,6 +4,11 @@ import {DoorManipulation} from "./DoorManipulation.component";
 import {Url} from "./Url.component";
 
 function Home() {
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('/service-worker.js');
+        });
+    }
     return (
         <Container>
             <Row>
