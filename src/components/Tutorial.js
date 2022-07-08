@@ -7,7 +7,7 @@ export function Tutorial() {
 
     return (
             <Container>
-                <main>
+                <main className='mt-5 mb-5'>
                     <Markdown>
                         {"# Configuration\n" +
                         "## What do you need?\n" +
@@ -49,6 +49,8 @@ export function Tutorial() {
                         "- Comma Locker UI: `https://github.com/rogerioaguas/comma-door-locker`\n" +
                         "- Comma Locker Server: `https://github.com/rogerioaguas/door-lock-unlock-server`\n" +
                         " \n" +
+                        "## Used\n" +
+                        " - `https://github.com/AlexandreSato/animalpilot/blob/personal/doors.py`\n" +
                         "\n"}
                     </Markdown>
                 </main>
