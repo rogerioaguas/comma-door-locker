@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/comma-door-locker/static/css/main.eb6e7166.css",
-    "main.js": "/comma-door-locker/static/js/main.e22dd538.js",
+    "main.js": "/comma-door-locker/static/js/main.04dd6ea5.js",
     "static/js/787.058b54b2.chunk.js": "/comma-door-locker/static/js/787.058b54b2.chunk.js",
     "index.html": "/comma-door-locker/index.html",
     "main.eb6e7166.css.map": "/comma-door-locker/static/css/main.eb6e7166.css.map",
-    "main.e22dd538.js.map": "/comma-door-locker/static/js/main.e22dd538.js.map",
+    "main.04dd6ea5.js.map": "/comma-door-locker/static/js/main.04dd6ea5.js.map",
     "787.058b54b2.chunk.js.map": "/comma-door-locker/static/js/787.058b54b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb6e7166.css",
-    "static/js/main.e22dd538.js"
+    "static/js/main.04dd6ea5.js"
   ]
 }
