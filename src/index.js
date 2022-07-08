@@ -9,12 +9,19 @@ import {Tutorial} from "./components/Tutorial";
 import Home from "./components/Home";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+alert('serviceWorker' in navigator)
+if ('serviceWorker' in navigator) {
+    console.log('ABC')
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/service-worker.js');
+    });
+}
 root.render(
     <React.StrictMode>
         <BrowserRouter>
             <Header/>
             <Routes>
-                <Route path="/" element={<Home />}/>
+                <Route path="/" element={<Home/>}/>
                 <Route path="/tutorial" element={<Tutorial/>}/>
             </Routes>
         </BrowserRouter>
