@@ -7,12 +7,12 @@ import reportWebVitals from './reportWebVitals';
 import {Header} from "./components/Header.component";
 import {Tutorial} from "./components/Tutorial";
 import Home from "./components/Home";
-import { register } from './registerServiceWorker';
+import {register} from './registerServiceWorker';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <BrowserRouter  basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={process.env.NODE_ENV === "production" ? process.env.PUBLIC_URL : ""}>
             <Header/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
