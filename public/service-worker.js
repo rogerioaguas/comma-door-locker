@@ -1,5 +1,5 @@
 /* eslint-disable no-restricted-globals */
-const CACHE_NAME = '@cacheName';
+const CACHE_NAME = '@cacheName-1.0.0';
 const urlsToCache = ['/', '/styles/styles.css', '/script/webpack-bundle.js'];
 // const appIcon = 'default_icon_link';
 
