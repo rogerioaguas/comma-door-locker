@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import {Header} from "./components/Header.component";
 import {Tutorial} from "./components/Tutorial";
 import Home from "./components/Home";
+import { register } from './registerServiceWorker';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,4 +25,5 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+register();
 reportWebVitals();
