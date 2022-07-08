@@ -23,7 +23,7 @@
 - Connect with your mobile phone on hotspot created ;
 - Now open the web-app `Comma Locker` ;
 - Get ip generate from `Comma device hotspot` ;
-- Write on field "x.x.x.x:5000" ;
+- Write on field `[COMMA IP]:5000` ;
 - Now try lock and unlock the car door ; 
 
 
