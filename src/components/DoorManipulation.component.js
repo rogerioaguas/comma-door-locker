@@ -37,7 +37,7 @@ export function DoorManipulation() {
 
     function unlockDoor() {
         setLoadingEnabled(true)
-        axios.get(`${url}/lock`)
+        axios.get(`${url}/unlock`)
             .then(() => {
                 toastAction("success", 'Your door should be unlocked')
                 setLoadingEnabled(false)
