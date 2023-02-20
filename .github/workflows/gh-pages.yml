@@ -1,11 +1,2 @@
 - name: Deploy GitHub Pages site
   uses: actions/deploy-pages@v1.2.4
-    with:
-      emit_telemetry: # optional, default is false
-      conclusion: # optional
-      token: # default is ${{ github.token }}
-      timeout: # optional, default is 600000
-      error_count: # optional, default is 10
-      reporting_interval: # optional, default is 5000
-      artifact_name: # optional, default is github-pages
-      preview: # optional, default is false
